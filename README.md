@@ -1,2 +1,2 @@
 # apnea-data-acquisiton-system
-Basic data acquisition system for sleep apnea utilizing a ppg sensor. 
+Basic data acquisition system for sleep apnea utilizing a ppg sensor. This data acquisition system collects samples from a ppg sensor and writes the data to a microSd card. The microprocessor used here is Atmega2560. Since the ppg sensor's working voltage is 3.3V and the microcontroller's working voltage is 5V, depending on the sensor module, exercise caution and use voltage level shifters.
